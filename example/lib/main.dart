@@ -136,7 +136,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   Future<void> _captureFullScreen() async {
-    final area = await _plugin.captureEntireScreen();
+    final area = await _plugin.captureAllDisplaysCombined();
     setState(() {
       _fullScreenArea = area;
     });

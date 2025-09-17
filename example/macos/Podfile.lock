@@ -1,5 +1,5 @@
 PODS:
-  - flutter_screen_capture (0.0.1):
+  - flutter_screen_capture (2.0.1):
     - FlutterMacOS
   - FlutterMacOS (1.0.0)
   - screen_retriever_macos (0.0.1):
@@ -19,9 +19,9 @@ EXTERNAL SOURCES:
     :path: Flutter/ephemeral/.symlinks/plugins/screen_retriever_macos/macos
 
 SPEC CHECKSUMS:
-  flutter_screen_capture: 74fb9192a80e1f540113c825b4ab87eba10e7d5f
+  flutter_screen_capture: 5db68ea1972d12dfb1b46b5659dad6bc50ea60ef
   FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
-  screen_retriever_macos: 452e51764a9e1cdb74b3c541238795849f21557f
+  screen_retriever_macos: 776e0fa5d42c6163d2bf772d22478df4b302b161
 
 PODFILE CHECKSUM: 353c8bcc5d5b0994e508d035b5431cfe18c1dea7
 
