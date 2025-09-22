@@ -94,7 +94,7 @@ class ScreenCapture {
     if (correctedRect.isEmpty) return null;
 
     // Logging to help debug whether we are sending correct coords to native
-    log('-> captureScreenArea: requested=$rect corrected=$correctedRect');
+    // log('-> captureScreenArea: requested=$rect corrected=$correctedRect');
 
     final result = await _methodChannel.invokeMethod<Map<Object?, Object?>>(
       'captureScreenArea',
