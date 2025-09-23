@@ -40,6 +40,8 @@ class ScreenCapture {
     final allDisplays = await ScreenRetriever.instance.getAllDisplays();
     if (allDisplays.isEmpty) return null;
 
+    log('Capture All Displays Combined: displays=${allDisplays.length}'
+        ,name:'capture');
     final List<CapturedScreenArea> capturedAreas = [];
     for (final display in allDisplays) {
       final area = await captureEntireScreen(displayId: display.id);
